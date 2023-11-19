@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  min-width: 300px;
+  color: green;
+  font-family: sans-serif;
+}
+@media screen and (min-width: 2800px) {
+  body {
+    background-color: grey;
+  }
+}
+#navbar-div {
+  text-align: center;
+  background-color: rgba(80, 80, 80, 0.5);
+  position: fixed;
+  height: 100%;
+  max-width: 440px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  top: 0;
+  left: 0;
+  border-right: 4px solid green;
+  padding: 0 5px;
+  display: block;
+
+}
+h1, h3 {
+  padding: 2px;
+  border: 2px solid;
+  border-radius: 30px;
+  width: 400px;
+  margin: 0 auto;
+}
+hr {
+  background-color: green;
+  border-color: green;
+  height: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+ul li {
+  padding-bottom: 20px;
+}
+#sections {
+  left: 470px;
+  display: block;
+  border: 40px;
+  position: absolute;
+}
+.main-section {
+  border: 2px solid green;
+  z-index: 1;
+  background-color: rgba(80, 80, 80, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  border-bottom: 0;
+  width: 700px;
+  height: 600px;
+  color: white;
+}
+a:hover {
+  color: magenta;
+}
+a {
+  color: white;
+}
+#bg1 {
+  background-image: url("https://www.vmcdn.ca/f/files/via/images/columns/rats-eating-eggs-on-toast.jpg");
+  background-repeat: no-repeat;
+  width: 704px;
+  height: 600px;
+  z-index: 2;
+  border-radius: 10px;
+  background-size: cover;
+}
+#bg2 {
+  background-image: url("https://cdn-images.vetstreet.com/f6/2d/7be677a74713ae14e62478a906b1/rat-eating-thinkstock-147065263-335sm111813.jpg");
+  background-repeat: no-repeat;
+  width: 704px;
+  height: 600px;
+  border-radius: 10px;
+  z-index: 2;
+  background-size: cover;
+}
+#bg3 {
+  background-image: url("https://katu.com/resources/media2/16x9/full/1015/center/80/f5f83104-e4c4-4482-ac8b-cd43139b08cb-large16x9_GettyImages1195130656.jpg");
+  background-repeat: no-repeat;
+  width: 704px;
+  height: 600px;
+  border-radius: 10px;
+  z-index: 2;
+  background-size: cover;
+}
+#bg4 {
+  background-image: url("https://www.thehouseofanimals.com/wp-content/uploads/2017/05/rats-like-broccoli.jpg");
+  background-repeat: no-repeat;
+  width: 704px;
+  height: 600px;
+  border-radius: 10px;
+  z-index: 2;
+  background-size: cover;  
+}
+#bg5 {
+  background-image: url("https://cdn.tillyscheesesteaks.com/what_kind_of_peppers_can_rats_eat.jpg");
+  background-repeat: no-repeat;
+  width: 704px;
+  height: 600px;
+  border-radius: 10px;
+  z-index: 2;
+  background-size: cover;  
+}
+#bg6 {
+  background-image: url("https://pbs.twimg.com/media/FSNZ_d5VUAEHJUo.jpg");
+  background-repeat: no-repeat;
+  width: 704px;
+  height: 600px;
+  border-radius: 10px;
+  z-index: 2;
+  background-size: cover;  
+}
+section header {
+  font-size: 3rem;
+}
+.space-between {
+  background-color: black;
+  height: 20px;
+  padding: 5px 0 5px 0;
+}
+section p {
+  font-size: 1.5rem;
+  padding: 0 2px;
+}
+.list {
+  display: inline-block;
+  padding: 0 40px;
+}
+.compressed li {
+  padding: 5px;
+  margin: 0;
+}

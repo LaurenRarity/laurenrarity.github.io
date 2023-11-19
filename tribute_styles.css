@@ -1,0 +1,45 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#img-div {
+  background-color: white;
+  width: 600px;
+  position: center;
+  border-radius: 20px;
+  text-align: center;
+  border: 6px solid rgba(0, 150, 0, 0.5);
+
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 13px
+}
+#content {
+  color: white;
+  text-align: center;
+  background-color: rgba(50, 50, 50, 0.6);
+  border-radius: 50px;
+  width: 600px;
+  padding: 5px;
+  margin: auto;
+}
+li {
+  padding: auto;
+  margin-bottom: 10px;
+}
+a:hover {
+  color: green;
+}
+a {
+  color: white;
+}
